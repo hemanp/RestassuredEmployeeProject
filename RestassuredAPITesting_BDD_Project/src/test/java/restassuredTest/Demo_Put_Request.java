@@ -16,7 +16,7 @@ public class Demo_Put_Request {
 	String empName=RestUtils.empName();
 	String empSalary=RestUtils.empSal();
 	String empAge=RestUtils.empAge();
-	int emp_id=11501;
+	int emp_id=9;
 	
 	@BeforeClass
 	public void putData()
@@ -35,7 +35,7 @@ public class Demo_Put_Request {
 	{
 		given()
 			.contentType("application/json")
-			.body(map)
+			//.body(map)
 		.when()
 			.put()
 		.then()
