@@ -35,7 +35,7 @@ public class Demo_Put_Request {
 	{
 		given()
 			.contentType("application/json")
-			//.body(map)
+			.body(map)
 		.when()
 			.put()
 		.then()
@@ -44,5 +44,4 @@ public class Demo_Put_Request {
 			
 	}
 
-	
 }
